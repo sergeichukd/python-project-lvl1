@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "sergeichukd_brain_games"
+name = "python-project-lvl1"
 version = "0.2.0"
 description = "This is my first python pocket"
 authors = ["sergeichuk dmitrii"]
+repository = "https://github.com/sergeichukd/python-project-lvl1.git"
 packages = [
 	{ include = "brain_games" }
 ]
