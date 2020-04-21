@@ -12,6 +12,7 @@ python = "^3.6"
 prompt = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
