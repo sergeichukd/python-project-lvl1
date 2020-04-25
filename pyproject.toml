@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-project-lvl1"
-version = "0.2.0"
+version = "0.3.0"
 description = "This is my first python pocket"
 authors = ["sergeichuk dmitrii"]
 repository = "https://github.com/sergeichukd/python-project-lvl1.git"
@@ -16,7 +16,12 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
+brain-games = "brain_games.scripts.brain_games_script:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/legacy"
 
 [build-system]
 requires = ["poetry>=0.12"]
