@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-project-lvl1"
+name = "sergeichukd-brain-games"
 version = "0.3.0"
 description = "This is my first python pocket"
 authors = ["sergeichuk dmitrii"]
