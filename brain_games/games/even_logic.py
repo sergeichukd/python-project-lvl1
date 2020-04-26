@@ -22,7 +22,7 @@ def check_answer(guess, truth):
     if guess == truth:
         message = "Correct!"
     else:
-        message = "'{}' is wrong answer ;(. Correct answer is '{}'.".format(guess, truth)
+        message = "'{}' is wrong answer ;(. Correct answer is '{}'.".format(guess, truth)  # noqa: E501
     return message, guess == truth
 
 

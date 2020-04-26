@@ -13,4 +13,3 @@ def ask_question(question):
     print(question)
     answer = prompt.string("Your answer: ")
     return answer
-
