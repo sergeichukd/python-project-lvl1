@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sergeichukd-brain-games"
-version = "1.0.0"
+version = "1.1.0"
 description = "This is my first python pocket"
 authors = ["sergeichuk dmitrii"]
 repository = "https://github.com/sergeichukd/python-project-lvl1.git"
@@ -16,9 +16,9 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games_script:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [[tool.poetry.source]]
 name = "testpypi"

@@ -9,7 +9,7 @@ def check_answer(guess, right_answer):
 
 
 def run(module):
-    name = cli.welcome_user(module.spec_info)
+    name = cli.welcome_user(module.SPEC_INFO)
     for turn in range(questions_to_win):
         question, right_answer = module.make_question_answer()
 

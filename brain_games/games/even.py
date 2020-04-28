@@ -1,7 +1,7 @@
 from random import randint
 
 
-spec_info = "Answer 'yes' if number even otherwise answer 'no'."
+SPEC_INFO = "Answer 'yes' if number even otherwise answer 'no'."
 
 
 def generate_number():

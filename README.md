@@ -14,3 +14,6 @@
 
 ### Пример установки и запуска игры brain-calc
 [![asciicast](https://asciinema.org/a/IxLrwCD9ckzCckpjoGzeS1jVr.svg)](https://asciinema.org/a/IxLrwCD9ckzCckpjoGzeS1jVr)
+
+### Пример установки и запуска игры brain-gcd
+[![asciicast](https://asciinema.org/a/BurUbCDbO2DI0T8C45C1z0fa8.svg)](https://asciinema.org/a/BurUbCDbO2DI0T8C45C1z0fa8)

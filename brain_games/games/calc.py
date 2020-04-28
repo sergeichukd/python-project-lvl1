@@ -2,7 +2,7 @@ from random import randint, choice
 from operator import mul, sub, add
 
 
-spec_info = "What is the result of the expression?"
+SPEC_INFO = "What is the result of the expression?"
 
 
 def generate_number():
