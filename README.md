@@ -8,6 +8,7 @@
 1. Проверка на четность - для разминки! (brain-even)
 1. Решение математических примеров - докажи этой бездушной машине, что ты не глупее! (brain-calc)
 1. Нахождение наибольшего общего кратного - докажи этой бездушной машине, что ты математик! (brain-gcd)
+1. Нахождение пропущенного числа в арифметической прогрессии - докажи этой бездушной машине, что ты шаришь в прогрессиях! (brain-progression)
 
 ### Пример установки и запуска игры brain-even
 
@@ -18,3 +19,6 @@
 
 ### Пример установки и запуска игры brain-gcd
 [![asciicast](https://asciinema.org/a/BurUbCDbO2DI0T8C45C1z0fa8.svg)](https://asciinema.org/a/BurUbCDbO2DI0T8C45C1z0fa8)
+
+### Пример установки и запуска игры brain-progression
+[![asciicast](https://asciinema.org/a/iA3tAB9DNzEXcgR95b3ctVjm9.svg)](https://asciinema.org/a/iA3tAB9DNzEXcgR95b3ctVjm9)
