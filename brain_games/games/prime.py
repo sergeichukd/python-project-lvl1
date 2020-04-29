@@ -41,5 +41,3 @@ def make_question_answer():
     print(number)
     right_answer = is_prime(number)
     return str(number), 'yes' if right_answer else 'no'
-
-
