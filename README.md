@@ -9,6 +9,7 @@
 1. Решение математических примеров - докажи этой бездушной машине, что ты не глупее! (brain-calc)
 1. Нахождение наибольшего общего кратного - докажи этой бездушной машине, что ты математик! (brain-gcd)
 1. Нахождение пропущенного числа в арифметической прогрессии - докажи этой бездушной машине, что ты шаришь в прогрессиях! (brain-progression)
+1. Простое ли число? - здесь поможет только Пик Балмера! (brain-prime)
 
 ### Пример установки и запуска игры brain-even
 
@@ -22,3 +23,6 @@
 
 ### Пример установки и запуска игры brain-progression
 [![asciicast](https://asciinema.org/a/iA3tAB9DNzEXcgR95b3ctVjm9.svg)](https://asciinema.org/a/iA3tAB9DNzEXcgR95b3ctVjm9)
+
+### Пример установки и запуска игры brain-prime
+[![asciicast](https://asciinema.org/a/czhqCR7DoCoFjSmE4AyKuRgLV.svg)](https://asciinema.org/a/czhqCR7DoCoFjSmE4AyKuRgLV)
