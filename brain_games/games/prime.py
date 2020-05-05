@@ -22,7 +22,7 @@ def optimize_prime_search(fun):
     def inner(number):
         if is_2_or_3(number):
             number_is_prime = True
-        elif is_divisible_by(number, 2) and is_divisible_by(number, 3):
+        elif is_divisible_by(number, 2) or is_divisible_by(number, 3):
             number_is_prime = False
         else:
             number_is_prime = fun(number)
@@ -35,7 +35,7 @@ def optimize_prime_search(fun):
 def is_prime(number):
     if number < 2:
         return False
-
+    # Because the least common divider of N is <= sqrt(N)
     ceil_least_divider = ceil(sqrt(number))
     for divider in range(2, ceil_least_divider + 1):
         if is_divisible_by(number, divider):
