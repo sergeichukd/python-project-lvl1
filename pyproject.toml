@@ -16,11 +16,11 @@ prompt = "^0.4.1"
 flake8 = "^3.7.9"
 
 [tool.poetry.scripts]
-brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "brain_games.scripts.brain_calc:main"
-brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
-brain-prime = "brain_games.scripts.brain_prime:main"
+brain-even = "brain_games.scripts.run:run_even"
+brain-calc = "brain_games.scripts.run:run_calc"
+brain-gcd = "brain_games.scripts.run:run_gcd"
+brain-progression = "brain_games.scripts.run:run_progression"
+brain-prime = "brain_games.scripts.run:run_prime"
 
 [[tool.poetry.source]]
 name = "testpypi"
