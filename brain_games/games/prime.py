@@ -10,14 +10,24 @@ def generate_number():
     return random.randint(0, 1000)
 
 
+def is_2_or_3(number):
+    return number == 2 or number == 3
+
+
+def is_divisible_by(number, divider):
+    return number % divider == 0
+
+
 def optimize_prime_search(fun):
     def inner(number):
-        if number == 2 or number == 3:
-            return True
-        elif not (number % 2 and number % 3 and number):
-            return False
+        if is_2_or_3(number):
+            number_is_prime = True
+        elif is_divisible_by(number, 2) and is_divisible_by(number, 3):
+            number_is_prime = False
         else:
-            return fun(number)
+            number_is_prime = fun(number)
+
+        return number_is_prime
     return inner
 
 
@@ -28,7 +38,7 @@ def is_prime(number):
 
     ceil_least_divider = ceil(sqrt(number))
     for divider in range(2, ceil_least_divider + 1):
-        if number % divider == 0:
+        if is_divisible_by(number, divider):
             return False
     return True
 
