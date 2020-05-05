@@ -1,22 +1,23 @@
-from random import randint, choice
-from operator import mul, sub, add
+import random
+import operator
 
 
 SPEC_INFO = "What is the result of the expression?"
+ROUNDS_NUMBER = 3
+OPERATIONS = {'*': operator.mul, '-': operator.sub, '+': operator.add}
 
 
 def generate_number():
-    return randint(1, 100)
+    return random.randint(1, 100)
 
 
 def generate_operator():
-    operators = {'*': mul, '-': sub, '+': add}
-    operator_key = choice(list(operators.keys()))
-    return operator_key, operators[operator_key]
+    operator_key = random.choice(list(OPERATIONS.keys()))
+    return operator_key, OPERATIONS[operator_key]
 
 
-def calculate(arg0, arg1, operator):
-    return operator(arg0, arg1)
+def calculate(arg0, arg1, arg_operator):
+    return arg_operator(arg0, arg1)
 
 
 def make_question_answer():

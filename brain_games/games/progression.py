@@ -2,6 +2,7 @@ from random import randint
 
 
 SPEC_INFO = "What number is missing in the progression?"
+ROUNDS_NUMBER = 3
 
 
 def make_a():

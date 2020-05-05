@@ -1,11 +1,12 @@
-from random import randint
+import random
 
 
 SPEC_INFO = "Answer 'yes' if number even otherwise answer 'no'."
+ROUNDS_NUMBER = 3
 
 
 def generate_number():
-    return randint(1, 100)
+    return random.randint(1, 100)
 
 
 def is_even(number):

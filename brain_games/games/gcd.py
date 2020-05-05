@@ -1,7 +1,8 @@
-from random import randint
+import random
 
 
 SPEC_INFO = "Find the greatest common divisor of given numbers."
+ROUNDS_NUMBER = 3
 
 
 def gcd(a, b):
@@ -9,7 +10,7 @@ def gcd(a, b):
 
 
 def generate_number():
-    return randint(1, 100)
+    return random.randint(1, 100)
 
 
 def make_question_answer():

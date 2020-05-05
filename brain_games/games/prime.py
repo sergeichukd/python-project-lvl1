@@ -1,16 +1,13 @@
 from math import sqrt, ceil
-from random import randint
+import random
 
 
 SPEC_INFO = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+ROUNDS_NUMBER = 3
 
 
 def generate_number():
-    return randint(0, 1000)
-
-
-def is_devided_by_2_or_3(number):
-    return (number % 2 and number % 3) == 0
+    return random.randint(0, 1000)
 
 
 def optimize_prime_search(fun):
@@ -38,6 +35,5 @@ def is_prime(number):
 
 def make_question_answer():
     number = generate_number()
-    print(number)
     right_answer = is_prime(number)
     return str(number), 'yes' if right_answer else 'no'

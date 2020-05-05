@@ -1,16 +1,13 @@
 from brain_games import cli
 
 
-questions_to_win = 3
-
-
 def check_answer(guess, right_answer):
     return guess == right_answer
 
 
 def run(module):
     name = cli.welcome_user(module.SPEC_INFO)
-    for turn in range(questions_to_win):
+    for turn in range(module.ROUNDS_NUMBER):
         question, right_answer = module.make_question_answer()
 
         guess = cli.get_answer(question)
